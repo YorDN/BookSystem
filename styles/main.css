@@ -166,6 +166,7 @@ body{
 }
 .admin_section{
     background-color: #1E1E1E;
+    padding-bottom: 50px;
 }
 .admins{
     display: grid;
@@ -181,8 +182,38 @@ body{
     padding-top: 20px;
 }
 .admin-name{
+    margin-top: 10px;   
     color: white;
 }
 .admin-role{
     color: gray;
 }
+.admin-photo{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+}
+.admin-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.admins{
+    margin-top: 50px;
+}
+/* .hidden-title, .hidden-contact{
+    opacity: 0;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1000;
+}
+.admin-container:hover{
+    position: relative;
+    .hidden-title, .hidden-contact{
+        opacity: 1;
+
+    }
+} */
